@@ -1,0 +1,69 @@
+.overlay {
+  background-color: rgba(0, 0, 0, 0.85);
+  min-height: 100vh;
+  padding: 0;
+}
+
+header {
+  padding: 50px 20px 30px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fdbc2c;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: #f5f5f5;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 8px 12px;
+  border: 1px solid #fdbc2c;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #fdbc2c;
+  color: #000;
+}
+
+section {
+  max-width: 900px;
+  margin: auto;
+  background-color: rgba(20, 20, 20, 0.95);
+  padding: 30px 40px;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+h2 {
+  color: #fdbc2c;
+  margin-bottom: 15px;
+}
+
+ul {
+  line-height: 1.7;
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+a.back-home {
+  display: inline-block;
+  margin-top: 20px;
+  color: #fdbc2c;
+  text-decoration: underline;
+}
